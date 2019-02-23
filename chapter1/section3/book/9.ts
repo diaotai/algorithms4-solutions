@@ -31,9 +31,9 @@ function completeString(str: string): string {
     return valStack.pop();
 }
 
-function main() {
+function main9() {
     const testStr = '1+2)*3-4)*5-6)))';
     console.log(completeString(testStr) === '((1+2)*((3-4)*(5-6)))');
 }
 
-main();
+main9();

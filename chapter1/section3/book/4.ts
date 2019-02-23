@@ -21,11 +21,11 @@ function judgeParentheses(str: string): boolean {
     return true;
 }
 
-function main() {
+function main4() {
     const teststr0 = '[()]{}{[()()]}';
     const teststr1 = '[(])';
     console.log(judgeParentheses(teststr0));
     console.log(judgeParentheses(teststr1)); 
 }
 
-main();
+main4();
