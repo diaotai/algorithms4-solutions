@@ -1,5 +1,6 @@
 /**
- * 选择排序的实现
+ * selectionSort
+ * O(n^2)
  */
 
  import { swap, testArraySorted  } from './utils';

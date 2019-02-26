@@ -1,3 +1,8 @@
+/**
+ * insertion sort
+ * O(n^2)
+ */
+
 import { swap, testArraySorted } from './utils';
 
 function insertionSort(arr: number[]): number[] {
