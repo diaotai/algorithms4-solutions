@@ -29,9 +29,9 @@ export function isArraySorted(arr: number[]): boolean {
 
 export function testArraySorted(sort: (arr: number[]) => number[], n = 10) {
     for (let i = 0; i < n; i++) {
-        const arr = initNumbersWithN(n);
+        let arr = initNumbersWithN(n);
         console.log('before sort:' , arr);
-        sort(arr);
+        arr = sort(arr);
         console.log('after sort:', arr);
         console.log(isArraySorted(arr));
     }
