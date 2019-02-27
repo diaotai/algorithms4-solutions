@@ -36,3 +36,10 @@ export function testArraySorted(sort: (arr: number[]) => number[], n = 10) {
         console.log(isArraySorted(arr));
     }
 }
+
+export function shuffle(arr: number[], start: number, end: number) {
+    for (let i = start; i <= end; i++) {
+        const index = Math.floor(Math.random() * (end - i));
+        swap(arr, i,  i + index);
+    }
+}
