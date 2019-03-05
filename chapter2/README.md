@@ -1,0 +1,2 @@
+* ![排序内容总结](https://algs4.cs.princeton.edu/25applications/images/sort-characteristics.png)
+* In most practical situations, quicksort is the method of choice. If stability is important and space is available, mergesort might be best. In some performance-critical applications, the focus may be on just sorting numbers, so it is reasonable to avoid the costs of using references and sort primitive types instead.
