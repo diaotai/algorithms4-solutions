@@ -1,5 +1,5 @@
 export function test(sort: (m: string, n: string) => number) {
     const text = 'AABRAACADABRAACAADABRA';
     const pattern = 'AACAA';
-    console.log(sort(text, pattern) === 12);
+    console.log(sort(text, pattern) === 12, sort(text, pattern));
 }
