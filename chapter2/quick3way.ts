@@ -11,6 +11,15 @@ function quick3Sort(arr: number[]): number[] {
     return arr;
 }
 
+/**
+ * i 代表第一个与 value 相等的地方
+ * index 当前值
+ * 由于从前向后，所以一定能保证所有等于 value 的值被换出来
+ * 
+ * @param arr 
+ * @param low 
+ * @param high 
+ */
 function sort(arr: number[], low: number, high: number) {
     if (low >= high) return;
 
